@@ -1,0 +1,52 @@
+# Enviroment Variables
+**/.env
+
+# Go Modules
+**/vendor
+
+# IDE
+*.log
+.idea/
+
+# MacOS
+**/.DS_Store
+
+# Keystore
+keystore
+
+# Ignoring files generated from CLI build
+**/*.bin
+**/target
+**/build
+**/data
+
+# Solidity
+**/__pycache__
+**/FunctionVerifier.sol
+**/broadcast
+
+# Platform
+proof.json
+output.json
+**/verifier-build
+**/verifier-build-groth16
+plonky2x/core/wrapped
+*.tar.gz
+
+# Typescript
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Swap the comments on the following lines if you don't wish to use zero-installs
+# Documentation here: https://yarnpkg.com/features/zero-installs
+!.yarn/cache
+#.pnp.*
+
+node_modules
+
+dist/
+tsconfig.tsbuildinfo
